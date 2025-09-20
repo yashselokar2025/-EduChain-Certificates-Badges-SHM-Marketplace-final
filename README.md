@@ -3,8 +3,15 @@ EduChain is a Web3 education ecosystem prototype. It uses a simulated blockchain
 
  LIVE- HOSTED LINK- https://600e671dabf4.ngrok-free.app/#badges
  to try you have to add data and it will be recorded and immediately show on dashboard and for specific person it will show on Student Portfolio
+
+
+ 
 STEP BY STEP CODE EXECUTION IN GOOGLE COLAB:
+
+
 STEP 1: !pip install streamlit pyngrok python-dotenv web3 requests
+
+
 STEP 2: import requests
 import os
 
