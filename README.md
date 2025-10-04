@@ -1,7 +1,7 @@
 # -EduChain-Certificates-Badges-SHM-Marketplace-final
 EduChain is a Web3 education ecosystem prototype. It uses a simulated blockchain to issue immutable certificates, verifiable skill badges (NFTs), and an incentive token (SHM). A peer-to-peer marketplace allows users to buy and sell courses, creating a decentralized and trustworthy learning economy for all.
 
- LIVE- HOSTED LINK- https://600e671dabf4.ngrok-free.app/#badges
+ LIVE- HOSTED LINK- https://4a83a369b619.ngrok-free.app/
  to try you have to add data and it will be recorded and immediately show on dashboard and for specific person it will show on Student Portfolio
 
 
