@@ -32,10 +32,10 @@ def upload_to_nft_storage(file_path):
         
 STEP 3: with open(".env", "w") as f:
     f.write("""RPC_URL=https://go.getblock.us/cfb133d0b8e946e984ae6cf5de46309c
-PRIVATE_KEY=0xBFfe28E2376049837a522650Ab0E6323612A4270
-NFT_STORAGE_KEY=fe433137.e5c2e4eed83a46cb851164ffa77c0ef2
-NGROK_AUTH_TOKEN=32x25OJIx2KcSVrvih1gnIVtg1I_3UDoczcBeDJn6zhKgzA7c
-CHAIN_ID=137
+PRIVATE_KEY=
+NFT_STORAGE_KEY=
+NGROK_AUTH_TOKEN=
+CHAIN_ID=
 """)
 STEP 4:with open(".env", "w") as f:
     f.write("""RPC_URL=https://go.getblock.us/cfb133d0b8e946e984ae6cf5de46309c
