@@ -15,10 +15,10 @@ STEP 1: !pip install streamlit pyngrok python-dotenv web3 requests
 STEP 2: import requests
 import os
 
-NFT_STORAGE_KEY = os.getenv("fe433137.e5c2e4eed83a46cb851164ffa77c0ef2")
+NFT_STORAGE_KEY = os.getenv("")
 
 def upload_to_nft_storage(file_path):
-    headers = {"Authorization": f"Bearer {fe433137.e5c2e4eed83a46cb851164ffa77c0ef2}"}
+    headers = {"Authorization": f"Bearer {}"}
     with open(file_path, "rb") as f:
         response = requests.post(
             "https://api.nft.storage/upload",
@@ -39,9 +39,9 @@ CHAIN_ID=137
 """)
 STEP 4:with open(".env", "w") as f:
     f.write("""RPC_URL=https://go.getblock.us/cfb133d0b8e946e984ae6cf5de46309c
-PRIVATE_KEY=0xBFfe28E2376049837a522650Ab0E6323612A4270
-NFT_STORAGE_KEY=fe433137.e5c2e4eed83a46cb851164ffa77c0ef2
-NGROK_AUTH_TOKEN=32x25OJIx2KcSVrvih1gnIVtg1I_3UDoczcBeDJn6zhKgzA7c
+PRIVATE_KEY=
+NFT_STORAGE_KEY=
+NGROK_AUTH_TOKEN=
 CHAIN_ID=137
 """)
 
